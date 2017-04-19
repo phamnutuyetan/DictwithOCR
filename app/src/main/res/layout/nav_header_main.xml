@@ -12,19 +12,19 @@
               android:theme="@style/ThemeOverlay.AppCompat.Light"
     >
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="@dimen/nav_header_vertical_spacing"
-        android:text="@string/f_app_team1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/wallet_link_text_light"/>
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="@dimen/nav_header_vertical_spacing"-->
+        <!--android:text="@string/f_app_team1"-->
+        <!--android:textAppearance="@style/TextAppearance.AppCompat.Body1"-->
+        <!--android:textColor="@color/wallet_link_text_light"/>-->
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/se114_h11"
-        android:textColor="@color/wallet_link_text_light"/>
+    <!--<TextView-->
+        <!--android:id="@+id/textView"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/se114_h11"-->
+        <!--android:textColor="@color/wallet_link_text_light"/>-->
 
 </LinearLayout>

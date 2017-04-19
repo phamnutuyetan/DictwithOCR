@@ -1,6 +1,7 @@
 package com.fapp.project.japanesedictionary;
 
 
+import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
@@ -23,6 +24,7 @@ import android.widget.Toast;
 
 import com.fapp.project.japanesedictionary.Database.DatabaseDescription;
 import com.fapp.project.japanesedictionary.Database.DictContentProvider;
+import com.gelitenight.waveview.library.WaveView;
 
 
 /**
@@ -204,4 +206,6 @@ public class Home extends Fragment
     public void onLoaderReset(Loader<Cursor> loader) {
         dictAdapter.swapCursor(null);
     }
+
+
 }

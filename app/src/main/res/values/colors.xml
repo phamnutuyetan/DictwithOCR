@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#ffffff</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#fafafa</color>
+    <color name="colorPrimaryDark">#348F50</color>
+    <color name="colorPrimaryLine">#348F50</color>
+    <color name="colorAccent">#56B4D3</color>
     <color name="black">#000000</color>
+
+    <color name="wave_behide_color">#66BB6A</color>
 </resources>
