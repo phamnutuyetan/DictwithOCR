@@ -57,6 +57,321 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_eea3c7f668a8e386b0c61a6875c8b169ed50b4f0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_a1771396969cc2fe05c025aac29619f5236e125c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_ae8ae5fd052eea0d06f682cecde4cd7f558c9818\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_25708936615aa792bda4f48fdce8e93f8e1ac930\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fe5dfeacbdd903137a2def98e9526887be01e716">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e5f07bb18234fbbff4284ccd91742b7dc0dad5e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_e44f6355e7fdf9fb19551e3c406ac19c988ac778\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_1aabd79ddea04dea6a1e616a05e92b18324c6247\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_b0de8738d4d6a147f38809ef4a770fd72d757363\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_dc3a12644343ad0c08a167bab1c7a5ea30d54617\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_d98a361ece736b5bc71195748ffff03523bd87b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_30483e687b0808154130bc226dd2eefb811b204d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_8f294f7c4cebc69bdcd1daf3605704ae157347df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_4f2529c207ac141b5e61664c014e2bbc944fcdd3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_4a5aa1926fb98a85c624b37e56880e40ab2700b8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_bdc48b1483896b7f7dffb80cc5931c5369d17efa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_46c37f110410e0ce722b749770377105ba6540d7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_8daf14b8627bdcfc664e778fc1a1d9a4e16b2823\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\libs\microsoft-translator-java-api-0.6.1-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ab0981a9cf0c30be42a5bbee9fd7da179d8a4ae">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\2\microsoft-translator-java-api-0.6.1-jar-with-dependencies_e9a7fa3237ef4b5377f0c58c944bb3315372c848\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_f2d34eb35cfacd392416d16fac07fcd5ad796c9d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_3bab7208122c0c6b10f72df6123469d64d20cc52\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_9a1aa883ae0af8ef80143083c38dfc4666292684\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_f651d57d8f8d6431115b1bec84e4d2b7ee39f90c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_e7479ec0a5e75fda58ca74381c7e8cbced54d34f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_9652b28fa198d33e4cee35fecd73e270714fcb94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_d119642de141013a68bf1c5c544cf630cd81a6b2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_0ee6b658ee5286bf8ac886704a1a55104dab5791\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_d0a0e13081a5cbb48e8749ee6e1852d4447c9ce1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_dabc31817a68704856b441d419ec4dff0a14640c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_bc5483d6e11aa0f9f99d008e54609bc579a37dee\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_3ff3674456ffae2be3faa4970614dd90f8491fc2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_a6234cafa71818960cca4826d0c67731f48812b7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.5.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.jakewharton-butterknife-8.5.1_13a0d85a4768e6dae47fd96bc6bb75d4996607df\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_8909bd4d24d978b41bb8a9d20cbcbc19525334c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_d02495d7b1eff2a37d49f2c88499028fa9fff048\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_2b6e9832bfb79df75d7a1df0f8cbd564097bd88a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -102,48 +417,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-iid-9.4.0_eea3c7f668a8e386b0c61a6875c8b169ed50b4f0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\.gradle\caches\modules-2\files-2.1\com.readystatesoftware.sqliteasset\sqliteassethelper\2.0.1\d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f\sqliteassethelper-2.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\sqliteassethelper-2.0.1_e4eb59bead1b18f0da487bf9598ad0a0ae1f6a98\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-places\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e35002351f2d415093a9b564652d4b56be6a0593">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-places-9.4.0_a1771396969cc2fe05c025aac29619f5236e125c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-iid\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-iid-9.4.0_ae8ae5fd052eea0d06f682cecde4cd7f558c9818\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-9.4.0_25708936615aa792bda4f48fdce8e93f8e1ac930\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -165,15 +444,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d2c55d3c386226aedbba6664b3f6827967c7dc93">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_4e5f07bb18234fbbff4284ccd91742b7dc0dad5e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -183,39 +453,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-common-9.4.0_e44f6355e7fdf9fb19551e3c406ac19c988ac778\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="e6e2251f3d3abf4eecd6bf6919d41fc7af497852">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-games-9.4.0_deb175724a056c0dfbebf89f35d992dbeda9dfbb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads-lite\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-ads-lite-9.4.0_1aabd79ddea04dea6a1e616a05e92b18324c6247\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-9.4.0_b0de8738d4d6a147f38809ef4a770fd72d757363\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -232,35 +475,8 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="24bdd86373f54514ae9992b04f7d031b0708df8f">
+        sha1="cc6a0a6d90f3e44638d4548a622e6d65c83d6ca4">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0ed282051496cbcf33fa36903e705745860e8d7e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e454c414a069241ee08444d187f2dd3a702596b5">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-maps-9.4.0_dc3a12644343ad0c08a167bab1c7a5ea30d54617\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="dd51b31890731591729f046d7a09c4fe4e483ed1">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-plus-9.4.0_d98a361ece736b5bc71195748ffff03523bd87b7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="461e4257888c25ec05abcd91e758fe7f4949230a">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-nearby-9.4.0_30483e687b0808154130bc226dd2eefb811b204d\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -270,42 +486,6 @@
         revision="24.0.3"
         sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-impl-9.4.0_33123e993cf102a99082c9c24520d3f5cd80969c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-mediarouter-v7-23.0.0_8f294f7c4cebc69bdcd1daf3605704ae157347df\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-module\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-module-9.4.0_4f2529c207ac141b5e61664c014e2bbc944fcdd3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast-framework\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="03829a2618892d438a1f59c6286699ca1f476e93">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-cast-framework-9.4.0_4a5aa1926fb98a85c624b37e56880e40ab2700b8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d49118ba67a101c4895f0581f17142cba85b330b">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-panorama-9.4.0_bdc48b1483896b7f7dffb80cc5931c5369d17efa\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -327,24 +507,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-auth-common\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-auth-common-9.4.0_46c37f110410e0ce722b749770377105ba6540d7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth-base\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-auth-base-9.4.0_8daf14b8627bdcfc664e778fc1a1d9a4e16b2823\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -360,15 +522,6 @@
         revision="24.0.3"
         sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_798c6809a1f3329d47131017ce4543ddc6de6271\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\libs\microsoft-translator-java-api-0.6.1-jar-with-dependencies.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="1ab0981a9cf0c30be42a5bbee9fd7da179d8a4ae">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\2\microsoft-translator-java-api-0.6.1-jar-with-dependencies_e9a7fa3237ef4b5377f0c58c944bb3315372c848\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -390,66 +543,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database-connection\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-connection-9.4.0_f2d34eb35cfacd392416d16fac07fcd5ad796c9d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ba47b210d36301e237ccfea860eaada04590f12a">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-analytics-9.4.0_3bab7208122c0c6b10f72df6123469d64d20cc52\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7bc6ea2bcfd6de4b7085e0f3a01616c5c8e0e2ad">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-safetynet-9.4.0_9a1aa883ae0af8ef80143083c38dfc4666292684\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_f651d57d8f8d6431115b1bec84e4d2b7ee39f90c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-9.4.0_fd212da2249d1bfee6d4539762db8b554a14b5d9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-24.2.1_e7479ec0a5e75fda58ca74381c7e8cbced54d34f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-gcm-9.4.0_9652b28fa198d33e4cee35fecd73e270714fcb94\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -471,42 +570,6 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_d119642de141013a68bf1c5c544cf630cd81a6b2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-database\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-database-9.4.0_0ee6b658ee5286bf8ac886704a1a55104dab5791\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_d0a0e13081a5cbb48e8749ee6e1852d4447c9ce1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-analytics\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-analytics-9.4.0_dabc31817a68704856b441d419ec4dff0a14640c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-storage-common\9.4.0\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -525,21 +588,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\9.4.0\jars\classes.jar"
+        jar="C:\Users\Phuong Nguyen Lan\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.5.1\bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc\butterknife-annotations-8.5.1.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.3"
-        sha1="954697ee6ea7bdd596babf4f70e8b7a17ca7649e">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-wallet-9.4.0_bc5483d6e11aa0f9f99d008e54609bc579a37dee\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.firebase\firebase-crash\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.firebase-firebase-crash-9.4.0_3ff3674456ffae2be3faa4970614dd90f8491fc2\classes.dex" />
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.5.1_d6264631b874674aa344fe1972c727402eed24c9\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -549,15 +603,6 @@
         revision="24.0.3"
         sha1="aee64634871d88a419d59eb743c1258a60f19700">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_160aaea6d208a868e079dd730425dd2e47938a89\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_a6234cafa71818960cca4826d0c67731f48812b7\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -585,33 +630,6 @@
         revision="24.0.3"
         sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
         <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tasks-9.4.0_f858de2abf7ce990fe51ab7a445d24fe808c5889\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-contextmanager\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="72eacac37fc64e95d53abd2a041bf81a952d8615">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-contextmanager-9.4.0_8909bd4d24d978b41bb8a9d20cbcbc19525334c6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tagmanager\9.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e5e8e535d15834e824817bdf5370556f62b4b2a5">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-tagmanager-9.4.0_d02495d7b1eff2a37d49f2c88499028fa9fff048\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\jars\libs\internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="24.0.3"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="C:\Users\Phuong Nguyen Lan\Desktop\Deadline\DEEP\DictionaryWithOCR\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.0.0_2b6e9832bfb79df75d7a1df0f8cbd564097bd88a\classes.dex" />
     </item>
 
 </items>

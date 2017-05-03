@@ -1,11 +1,9 @@
 package com.fapp.project.japanesedictionary;
 
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
+import android.support.v4.widget.SimpleCursorAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
 import android.view.Menu;
@@ -18,24 +16,45 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.fapp.project.japanesedictionary.New.FavoriteActivity;
+import com.fapp.project.japanesedictionary.New.MultiTranslateActivity;
+import com.fapp.project.japanesedictionary.Old.TranslateFragment;
 import com.gelitenight.waveview.library.WaveView;
 
+import butterknife.BindView;
+import butterknife.ButterKnife;
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
-//        NavigationView.OnNavigationItemSelectedListener,
-//        Home.DictHomeListener, FavoriteFragment.FavoriteFragmentListener
-{
-    // key for storing a contact's Uri in a Bundle passed to a fragment
+{// key for storing a contact's Uri in a Bundle passed to a fragment
     public static final String WORD_URI = "word_uri";
-    private Home home;
+
+
+    @BindView(R.id.wave_view)
+    WaveView mWaveView;
+    @BindView(R.id.ln_logo)
+    LinearLayout lnLogo;
+    @BindView(R.id.rl_main_btns)
+    RelativeLayout rlMainBtns;
+    @BindView(R.id.search_view)
+    SearchView searchView;
+    @BindView(R.id.btn_ocr)
+    LinearLayout btnOCR;
+    @BindView(R.id.btn_audio)
+    LinearLayout btnAudio;
+    @BindView(R.id.btn_multi_line_translate)
+    LinearLayout btnMultiLineTranslate;
+    @BindView(R.id.btn_favorite)
+    LinearLayout btnFavorite;
+    @BindView(R.id.btn_info)
+    LinearLayout btnInfo;
+    @BindView(R.id.btn_other)
+    LinearLayout btnOther;
+
 
     private WaveHelper mWaveHelper;
-    private SearchView searchView;
-    private LinearLayout btnOCR;
-    private LinearLayout btnAudio;
-    private LinearLayout btnMultiLineTranslate;
-    private LinearLayout btnFavorite;
-    private LinearLayout btnInfo;
-    private LinearLayout btnOther;
+    private Home home;
+    SimpleCursorAdapter searchAdapter;
+
+
 
 
     @Override
@@ -44,13 +63,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main_2);
+        ButterKnife.bind(this);
 
-        btnOCR = (LinearLayout) findViewById(R.id.btn_ocr);
-        btnAudio = (LinearLayout) findViewById(R.id.btn_audio);
-        btnMultiLineTranslate = (LinearLayout) findViewById(R.id.btn_multi_line_translate);
-        btnFavorite = (LinearLayout) findViewById(R.id.btn_favorite);
-        btnOther = (LinearLayout) findViewById(R.id.btn_other);
-        btnInfo = (LinearLayout) findViewById(R.id.btn_info);
+
 
         initUI();
 
@@ -84,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View view){
+        Intent intent;
         switch (view.getId()){
             case R.id.btn_ocr:
 
@@ -93,10 +109,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_multi_line_translate:
+                intent = new Intent(this, MultiTranslateActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.btn_favorite:
-                displayFavorite(R.id.fragmentContainer);
+                intent = new Intent(this, FavoriteActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.btn_other:
@@ -107,15 +126,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    @Override
-    public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
-            super.onBackPressed();
-        }
-    }
+//    @Override
+//    public void onBackPressed() {
+//        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+//        if (drawer.isDrawerOpen(GravityCompat.START)) {
+//            drawer.closeDrawer(GravityCompat.START);
+//        } else {
+//            super.onBackPressed();
+//        }
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -194,21 +213,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 //        transaction.commit(); // causes DetailFragment to display
 //    }
 
-    private void displayFavorite(int viewID){
-//        FavoriteFragment fragment = new FavoriteFragment();
-//
-//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-//        transaction.replace(viewID, fragment);
-//        transaction.addToBackStack(null);
-//        transaction.commit();
-
-        Intent intent = new Intent(this, FavoriteActivity.class);
-        startActivity(intent);
-    }
-
     private void displayListeningRevision(int viewID){
         ListeningRevisionFragment fragment = new ListeningRevisionFragment();
-
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(viewID, fragment);
         transaction.addToBackStack(null);
@@ -224,14 +230,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         transaction.commit();
     }
 
-    private void displayTranslate(int viewID){
-        TranslateFragment fragment = new TranslateFragment();
-
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-        transaction.replace(viewID, fragment);
-        transaction.addToBackStack(null);
-        transaction.commit();
-    }
+//    private void displayTranslate(int viewID){
+//        TranslateFragment fragment = new TranslateFragment();
+//
+//        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+//        transaction.replace(viewID, fragment);
+//        transaction.addToBackStack(null);
+//        transaction.commit();
+//    }
 
 //    @Override
 //    public void onWordSelected(Uri contactUri) {
@@ -253,12 +259,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
     private void initUI(){
-        final WaveView mWaveView = (WaveView) findViewById(R.id.wave_view);
-        final LinearLayout lnLogo = (LinearLayout) findViewById(R.id.ln_logo);
-        final RelativeLayout rlMainBtns = (RelativeLayout) findViewById(R.id.rl_main_btns);
-        searchView = (SearchView) findViewById(R.id.search_view);
-
-
         mWaveHelper = new WaveHelper(mWaveView);
         mWaveView.setShapeType(WaveView.ShapeType.SQUARE);
         mWaveView.setWaveColor(
@@ -285,7 +285,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 searchView.setVisibility(View.VISIBLE);
                 searchView.startAnimation(animFadeIn);
             }
-        }, 2300);
+        }, 2100);
 
     }
 }

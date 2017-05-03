@@ -7,6 +7,7 @@ import android.app.FragmentTransaction;
 import android.content.ContentValues;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
@@ -31,6 +32,8 @@ import com.fapp.project.japanesedictionary.FavoriteFragment;
 import com.fapp.project.japanesedictionary.ItemDivider;
 import com.fapp.project.japanesedictionary.R;
 
+import butterknife.ButterKnife;
+
 import static java.security.AccessController.getContext;
 
 /**
@@ -51,14 +54,7 @@ public class FavoriteActivity extends Activity implements LoaderManager.LoaderCa
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_favorite);
-
-        CustomActionBarFragment actionBarFragment = new CustomActionBarFragment(CustomActionBarFragment.TITLE_TYPE);
-        getFragmentManager().beginTransaction().add(R.id.fr_action_bar, actionBarFragment).commit();
-
-
-
-        numOfWordTextView = (TextView)findViewById(R.id.numOfWordTextView);
-        favoriteRecyclerView = (RecyclerView)findViewById(R.id.favoriteRecyclerView);
+        ButterKnife.bind(this);
 
         adapter = new DictionaryAdapter(new DictionaryAdapter.DictClickListener() {
             @Override
@@ -164,5 +160,7 @@ public class FavoriteActivity extends Activity implements LoaderManager.LoaderCa
                 return false;
         }
     }
+
+
 
 }
