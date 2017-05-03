@@ -12,6 +12,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.deep.jscandictionary.Helper.WaveHelper;
+import com.deep.jscandictionary.Quiz.QuizActivity;
 import com.deep.jscandictionary.image2text.R;
 import com.gelitenight.waveview.library.WaveView;
 
@@ -33,16 +34,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     SearchView searchView;
     @BindView(R.id.btn_ocr)
     LinearLayout btnOCR;
-    @BindView(R.id.btn_audio)
-    LinearLayout btnAudio;
+    @BindView(R.id.btn_quiz)
+    LinearLayout btnQuiz;
     @BindView(R.id.btn_multi_line_translate)
     LinearLayout btnMultiLineTranslate;
     @BindView(R.id.btn_favorite)
     LinearLayout btnFavorite;
     @BindView(R.id.btn_info)
     LinearLayout btnInfo;
-    @BindView(R.id.btn_other)
-    LinearLayout btnOther;
+    @BindView(R.id.btn_setting)
+    LinearLayout btnSetting;
 
     private WaveHelper mWaveHelper;
 
@@ -57,10 +58,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initWaveUI();
 
         btnOCR.setOnClickListener(this);
-        btnAudio.setOnClickListener(this);
+        btnQuiz.setOnClickListener(this);
         btnMultiLineTranslate.setOnClickListener(this);
         btnFavorite.setOnClickListener(this);
-        btnOther.setOnClickListener(this);
+        btnSetting.setOnClickListener(this);
         btnInfo.setOnClickListener(this);
         searchView.setOnQueryTextListener(searchViewOnQueryTextListener);
     }
@@ -93,7 +94,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
-            case R.id.btn_audio:
+            case R.id.btn_quiz:
+                intent = new Intent(this, QuizActivity.class);
+                startActivity(intent);
                 break;
 
             case R.id.btn_multi_line_translate:
@@ -106,7 +109,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
-            case R.id.btn_other:
+            case R.id.btn_setting:
                 break;
 
             case R.id.btn_info:

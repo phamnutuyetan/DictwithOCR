@@ -9,7 +9,9 @@
         android:id="@+id/wave_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_centerInParent="true"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +20,6 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
-
 
         <LinearLayout
             android:id="@+id/ln_logo"
@@ -104,43 +105,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
+                            android:text="@string/btn_ocr_name"/>
                     </LinearLayout>
-
-                    <LinearLayout
-                        android:id="@+id/btn_audio"
-                        android:layout_width="0dp"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:gravity="center">
-                        <ImageButton
-                            android:layout_width="@dimen/main_btns_icon_size"
-                            android:layout_height="@dimen/main_btns_icon_size"
-                            android:src="@drawable/ic_disc"
-                            style="@style/main_button_style"/>
-                        <TextView
-                            android:clickable="false"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center"
-                            android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
-                    </LinearLayout>
-
-                </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/colorPrimaryLine"
-                    android:layout_marginLeft="@dimen/small_margin_horizontal"
-                    android:layout_marginRight="@dimen/small_margin_horizontal"/>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="1">
 
                     <LinearLayout
                         android:id="@+id/btn_multi_line_translate"
@@ -160,7 +126,42 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
+                            android:text="@string/btn_multi_translate_name"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorPrimaryLine"
+                    android:layout_marginLeft="@dimen/small_margin_horizontal"
+                    android:layout_marginRight="@dimen/small_margin_horizontal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:id="@+id/btn_quiz"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:gravity="center">
+                        <ImageButton
+                            android:layout_width="@dimen/main_btns_icon_size"
+                            android:layout_height="@dimen/main_btns_icon_size"
+                            android:src="@drawable/ic_game"
+                            style="@style/main_button_style"/>
+                        <TextView
+                            android:clickable="false"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:textSize="@dimen/small_text_size"
+                            android:text="@string/btn_quiz_name"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -181,7 +182,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
+                            android:text="@string/btn_favorite_name"/>
                     </LinearLayout>
 
                 </LinearLayout>
@@ -198,7 +199,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="1">
                     <LinearLayout
-                        android:id="@+id/btn_other"
+                        android:id="@+id/btn_setting"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -207,7 +208,7 @@
                         <ImageButton
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
-                            android:src="@drawable/ic_game"
+                            android:src="@drawable/ic_setting"
                             style="@style/main_button_style"/>
                         <TextView
                             android:clickable="false"
@@ -215,7 +216,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
+                            android:text="@string/btn_setting_name"/>
                     </LinearLayout>
 
                     <LinearLayout
@@ -236,7 +237,7 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center"
                             android:textSize="@dimen/small_text_size"
-                            android:text="SCAN OCR"/>
+                            android:text="@string/btn_info_name"/>
                     </LinearLayout>
 
                 </LinearLayout>

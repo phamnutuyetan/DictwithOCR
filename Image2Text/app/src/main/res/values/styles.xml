@@ -40,6 +40,13 @@
         <!--<item name="android:fontFamily">sans-serif-light</item>-->
     </style>
 
+    <style name="menu_tv_style">
+        <item name="android:textSize">@dimen/menu_title_text_size</item>
+        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <!--<item name="android:fontFamily">sans-serif-light</item>-->
+    </style>
+
     <style name="common_error_tv_style" parent="common_tv_style">
         <item name="android:textColor">@color/error_text_color</item>
     </style>

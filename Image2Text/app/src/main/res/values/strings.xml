@@ -5,6 +5,14 @@
 
     <!-- MainActivity -->
     <string name="title_activity_main">Japanese Dictionary</string>
+    <!-- Names of Main btns-->
+    <string name="btn_ocr_name">Scan OCR</string>
+    <string name="btn_quiz_name">Quiz</string>
+    <string name="btn_multi_translate_name">Translation</string>
+    <string name="btn_favorite_name">Favorite</string>
+    <string name="btn_setting_name">Setting</string>
+    <string name="btn_info_name">Infomation</string>
+
 
     <!-- OCRActivity -->
     <string name="ocr_title">OCR</string>
@@ -38,8 +46,11 @@
     <!-- InfomationActivity -->
 
     <!-- QuizActivity -->
-
-    <!-- AudioActivity -->
+    <string name="quiz_title">Quiz</string>
+    <string name="title_definition_quiz_text">Definition Quiz</string>
+    <string name="title_synonymous_quiz_text">Synonymous Quiz</string>
+    <string name="quiz_submit_hint">"Enter your answer here..."</string>
+    <string name="your_score_text">Your score</string>
 
     <!-- DictContentProvider-->
     <string name="invalid_query_uri">Invalid query Uri: </string>

@@ -68,6 +68,16 @@
             <!--</intent-filter>-->
         </activity>
 
+        <activity android:name="com.deep.jscandictionary.Quiz.QuizActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/quiz_title">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
+        </activity>
+
+
         <provider
             android:name="com.deep.jscandictionary.database.DictContentProvider"
             android:authorities="com.deep.jscandictionary.database"
