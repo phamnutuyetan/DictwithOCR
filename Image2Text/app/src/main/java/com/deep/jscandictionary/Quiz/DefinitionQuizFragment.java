@@ -89,6 +89,7 @@ public class DefinitionQuizFragment extends Fragment implements LoaderManager.Lo
     private View.OnClickListener onBtnSubmitClick = new View.OnClickListener() {
         @Override
         public void onClick(View view) {
+            ((QuizActivity)getActivity()).hideSoftKeyboard(view);
             if(edtAnswer.getText().toString().trim().isEmpty()){
                 Toast.makeText(getContext(), getContext().getString(R.string.empty_word), Toast.LENGTH_SHORT).show();
                 return;

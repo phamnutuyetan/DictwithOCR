@@ -1,6 +1,7 @@
 package com.deep.jscandictionary.Quiz;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.os.Build;
@@ -18,6 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ImageView;
@@ -107,12 +109,13 @@ public class SynonymousQuizFragment extends Fragment implements LoaderManager.Lo
                 break;
 
             case R.id.ibtn_submit:
-                onBtnSubmitClick();
+                onBtnSubmitClick(view);
                 break;
         }
     }
 
-    private void onBtnSubmitClick() {
+    private void onBtnSubmitClick(View view) {
+        ((QuizActivity)getActivity()).hideSoftKeyboard(view);
         if(edtAnswer.getText().toString().trim().isEmpty()){
             Toast.makeText(getContext(), getContext().getString(R.string.empty_word), Toast.LENGTH_SHORT).show();
             return;
