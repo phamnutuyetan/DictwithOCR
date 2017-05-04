@@ -15,7 +15,7 @@
 
 
     <!-- OCRActivity -->
-    <string name="ocr_title">OCR</string>
+    <string name="ocr_title">OCR Scan</string>
     <string name="button_text">OCR!</string>
     <string name="text_hint">OCRed Text will appear here</string>
 
@@ -37,6 +37,7 @@
     <!--<string name="sample_large_string">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</string>-->
     <string name="sample_large_string">""</string>
     <string name="sample_title_string">"What is lorem ipsum?"</string>
+    <string name="detail_title">Detail</string>
     <string name="pronunciation">Pronunciation</string>
     <string name="synonymous">Synonymous</string>
     <string name="english">English</string>
@@ -47,14 +48,15 @@
     <string name="save_unsuccessfully">Error happens when saving this word</string>
 
     <!-- InfomationActivity -->
+    <string name="infomation_title">Information</string>
     <string name="pre_market_uri">"market://details?id="</string>
     <string name="pre_google_play_uri">"http://play.google.com/store/apps/details?id="</string>
     <string name="fanpage_url">"https://www.facebook.com/pg/JScan-T%%E1%%BB%%AB-%%C4%%91i%%E1%%BB%%83n-v%%C3%%A0-OCR-ti%%E1%%BA%%BFng-Nh%%E1%%BA%%ADt-1712671182359298/about/?ref=page_internal"</string>
 
     <!-- QuizActivity -->
     <string name="quiz_title">Quiz</string>
-    <string name="title_definition_quiz_text">Definition Quiz</string>
-    <string name="title_synonymous_quiz_text">Synonymous Quiz</string>
+    <string name="title_reading_quiz_text">Reading Revision Quiz</string>
+    <string name="title_listening_quiz_text">Listening Revision Quiz</string>
     <string name="quiz_submit_hint">"Enter your answer here..."</string>
     <string name="your_score_text">Your score</string>
 
@@ -67,6 +69,7 @@
 
     <!-- SearchResultActivity-->
     <string name="not_found"> is not found</string>
+    <string name="search_result_title">Search Result</string>
 
 
     <!-- Others -->

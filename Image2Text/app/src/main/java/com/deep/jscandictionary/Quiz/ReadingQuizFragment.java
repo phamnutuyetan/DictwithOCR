@@ -36,7 +36,7 @@ import butterknife.ButterKnife;
 /**
  * Created by Phuong Nguyen Lan on 05/04/2017.
  */
-public class DefinitionQuizFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>{
+public class ReadingQuizFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>{
     private static final int LOADER = 0;
 
     @BindView(R.id.edt_answer)

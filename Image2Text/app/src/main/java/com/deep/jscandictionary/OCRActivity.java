@@ -59,7 +59,7 @@ public class OCRActivity extends FragmentActivity implements View.OnClickListene
 
         CustomActionBarFragment actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
         actionBarFragment.setActionBarType(CustomActionBarFragment.SIMPLE_TITLE_TYPE,
-                getString(R.string.multi_translate_title));
+                getString(R.string.ocr_title));
 
 
         String[] paths = new String[]{DATA_PATH, DATA_PATH + "tessdata/"};

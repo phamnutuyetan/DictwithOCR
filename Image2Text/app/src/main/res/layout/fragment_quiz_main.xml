@@ -29,7 +29,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="false"
-            android:text="@string/title_definition_quiz_text"
+            android:text="@string/title_reading_quiz_text"
             style="@style/menu_tv_style"
             android:layout_gravity="center_vertical"/>
     </LinearLayout>
@@ -56,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:clickable="false"
-            android:text="@string/title_synonymous_quiz_text"
+            android:text="@string/title_listening_quiz_text"
             style="@style/menu_tv_style"
             android:layout_gravity="center_vertical"/>
     </LinearLayout>

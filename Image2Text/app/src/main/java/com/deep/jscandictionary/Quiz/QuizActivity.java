@@ -33,7 +33,7 @@ public class QuizActivity extends FragmentActivity {
 
         // join the ActionBar on the top of this layout
         actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
-        actionBarFragment.setActionBarType(CustomActionBarFragment.FAVORITE_TITLE_TYPE, "QuizActivity");
+        actionBarFragment.setActionBarType(CustomActionBarFragment.SIMPLE_TITLE_TYPE, getString(R.string.quiz_title));
 
         //join main quiz layout
         replaceFragment(new QuizMainFragment());

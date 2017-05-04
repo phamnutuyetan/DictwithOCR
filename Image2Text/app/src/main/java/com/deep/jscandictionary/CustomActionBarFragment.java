@@ -25,6 +25,7 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
     public static final int SIMPLE_TITLE_TYPE = 1;                 // for: OCRActivity, MultiTranslateActivity,...
     public static final int FAVORITE_TITLE_TYPE = 2;        // for: FavoriteActivity,...
     public static final int DETAIL_TITLE_TYPE = 3;          // for: DetailActivity
+    public static final int INFOMATION_TITLE_TYPE = 4;      // for: InformationActivity
 
     @BindView(R.id.ibtn_back)
     ImageButton btnBack;
@@ -38,8 +39,6 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
     CheckBox cbFavorite;
     @BindView(R.id.ibtn_home)
     ImageButton btnHome;
-
-    //private int type = SIMPLE_TITLE_TYPE;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
@@ -76,6 +75,7 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
     }
 
     private void setInvisibleAll(){
+        btnHome.setVisibility(View.GONE);
         btnBin.setVisibility(View.INVISIBLE);
         tvTitle.setVisibility(View.INVISIBLE);
         searchView.setVisibility(View.INVISIBLE);
@@ -86,20 +86,30 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
         setInvisibleAll();
         switch (type){
             case SEARCH_RESULT_TITLE_TYPE:
+                btnHome.setVisibility(View.VISIBLE);
                 searchView.setVisibility(View.VISIBLE);
                 break;
 
             case DETAIL_TITLE_TYPE:
+                btnHome.setVisibility(View.VISIBLE);
                 tvTitle.setVisibility(View.VISIBLE);
                 cbFavorite.setVisibility(View.VISIBLE);
                 break;
 
             case FAVORITE_TITLE_TYPE:
+                btnHome.setVisibility(View.VISIBLE);
                 tvTitle.setVisibility(View.VISIBLE);
+                tvTitle.setText(title);
                 btnBin.setVisibility(View.VISIBLE);
                 break;
 
             case SIMPLE_TITLE_TYPE:
+                btnHome.setVisibility(View.VISIBLE);
+                tvTitle.setVisibility(View.VISIBLE);
+                tvTitle.setText(title);
+                break;
+
+            case INFOMATION_TITLE_TYPE:
                 tvTitle.setVisibility(View.VISIBLE);
                 tvTitle.setText(title);
                 break;

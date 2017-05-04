@@ -72,7 +72,7 @@ public class FavoriteActivity extends FragmentActivity implements LoaderManager.
 
         // join the ActionBar on the top of this layout
         actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
-        actionBarFragment.setActionBarType(CustomActionBarFragment.FAVORITE_TITLE_TYPE, "FavoriteActivity");
+        actionBarFragment.setActionBarType(CustomActionBarFragment.FAVORITE_TITLE_TYPE, getString(R.string.favorite_title));
         actionBarFragment.btnBin.setOnClickListener(btnBinClickListener);
     }
 

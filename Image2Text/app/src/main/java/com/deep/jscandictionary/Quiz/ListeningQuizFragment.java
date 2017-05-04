@@ -41,7 +41,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 05/04/2017.
  */
 
-public class SynonymousQuizFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
+public class ListeningQuizFragment extends Fragment implements LoaderManager.LoaderCallbacks<Cursor>,
         View.OnClickListener{
     private static final int LOADER = 0;
 

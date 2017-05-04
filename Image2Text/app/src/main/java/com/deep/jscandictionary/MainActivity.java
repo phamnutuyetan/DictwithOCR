@@ -113,6 +113,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_info:
+                intent = new Intent(this, InfomationActivity.class);
+                startActivity(intent);
                 break;
         }
     }

@@ -37,11 +37,11 @@ public class QuizMainFragment extends Fragment implements View.OnClickListener{
     public void onClick(View view){
         switch (view.getId()){
             case R.id.ln_definition_quiz:
-                ((QuizActivity)getActivity()).replaceFragment(new DefinitionQuizFragment());
+                ((QuizActivity)getActivity()).replaceFragment(new ReadingQuizFragment());
                 break;
 
             case R.id.ln_synonymous_quiz:
-                ((QuizActivity)getActivity()).replaceFragment(new SynonymousQuizFragment());
+                ((QuizActivity)getActivity()).replaceFragment(new ListeningQuizFragment());
                 break;
         }
     }

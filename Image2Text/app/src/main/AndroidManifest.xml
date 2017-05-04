@@ -23,7 +23,8 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.deep.jscandictionary.OCRActivity">
+        <activity android:name="com.deep.jscandictionary.OCRActivity"
+            android:label="@string/ocr_title">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
 
@@ -38,30 +39,30 @@
             android:name="com.deep.jscandictionary.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
-            <!--<intent-filter>-->
-                <!--<action android:name="android.intent.action.MAIN" />-->
-                <!--<category android:name="android.intent.category.LAUNCHER" />-->
-            <!--</intent-filter>-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
 
         <activity android:name="com.deep.jscandictionary.MultiTranslateActivity"
             android:screenOrientation="portrait"
-            android:label="@string/favorite_title">
+            android:label="@string/multi_translate_title">
         </activity>
 
         <activity android:name="com.deep.jscandictionary.FavoriteActivity"
             android:screenOrientation="portrait"
-            android:label="@string/multi_translate_title">
+            android:label="@string/favorite_title">
         </activity>
 
         <activity android:name="com.deep.jscandictionary.DetailActivity"
             android:screenOrientation="portrait"
-            android:label="@string/ocr_title">
+            android:label="@string/detail_title">
         </activity>
 
         <activity android:name="com.deep.jscandictionary.SearchResultActivity"
             android:screenOrientation="portrait"
-            android:label="@string/ocr_title">
+            android:label="@string/search_result_title">
             <!--<intent-filter>-->
                 <!--<action android:name="android.intent.action.MAIN" />-->
                 <!--<category android:name="android.intent.category.LAUNCHER" />-->
@@ -79,12 +80,11 @@
 
         <activity android:name="com.deep.jscandictionary.InfomationActivity"
             android:screenOrientation="portrait"
-            android:label="Infomation">
-            <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
-            <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-
+            android:label="@string/infomation_title">
+            <!--<intent-filter>-->
+            <!--<action android:name="android.intent.action.MAIN" />-->
+            <!--<category android:name="android.intent.category.LAUNCHER" />-->
+            <!--</intent-filter>-->
         </activity>
 
 
