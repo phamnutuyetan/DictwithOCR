@@ -10,6 +10,7 @@
     <color name="error_text_color">#e74c3c</color>
     <color name="score_color">#f44336</color>
     <color name="submit_text_color">#555555</color>
+    <color name="team_banner_color">#757575</color>
 
     <color name="rounded_button_color">#4CAF50</color>
     <color name="result_text_bg_color">#E0E0E0</color>

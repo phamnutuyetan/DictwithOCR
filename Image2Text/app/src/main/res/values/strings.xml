@@ -32,10 +32,12 @@
 
 
 
+
     <!-- DetailActivity -->
     <!--<string name="sample_large_string">"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."</string>-->
     <string name="sample_large_string">""</string>
     <string name="sample_title_string">"What is lorem ipsum?"</string>
+    <string name="pronunciation">Pronunciation</string>
     <string name="synonymous">Synonymous</string>
     <string name="english">English</string>
     <string name="vietnamese">Vietnamese</string>
@@ -43,7 +45,11 @@
     <string name="save_successfully">This word has been saved to Favorite successfully</string>
     <string name="remove_favorite">This word has been removed from Favorite</string>
     <string name="save_unsuccessfully">Error happens when saving this word</string>
+
     <!-- InfomationActivity -->
+    <string name="pre_market_uri">"market://details?id="</string>
+    <string name="pre_google_play_uri">"http://play.google.com/store/apps/details?id="</string>
+    <string name="fanpage_url">"https://www.facebook.com/pg/JScan-T%%E1%%BB%%AB-%%C4%%91i%%E1%%BB%%83n-v%%C3%%A0-OCR-ti%%E1%%BA%%BFng-Nh%%E1%%BA%%ADt-1712671182359298/about/?ref=page_internal"</string>
 
     <!-- QuizActivity -->
     <string name="quiz_title">Quiz</string>
