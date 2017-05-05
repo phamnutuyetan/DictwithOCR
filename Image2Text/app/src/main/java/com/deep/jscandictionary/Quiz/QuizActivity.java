@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 
+import com.deep.jscandictionary.BaseActivity;
 import com.deep.jscandictionary.CustomActionBarFragment;
 import com.deep.jscandictionary.image2text.R;
 
@@ -19,15 +20,13 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 05/03/2017.
  */
 
-public class QuizActivity extends FragmentActivity {
+public class QuizActivity extends BaseActivity {
 
     private CustomActionBarFragment actionBarFragment;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_quiz);
         ButterKnife.bind(this);
 

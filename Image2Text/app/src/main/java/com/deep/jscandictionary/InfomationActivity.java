@@ -20,7 +20,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 05/04/2017.
  */
 
-public class InfomationActivity extends FragmentActivity implements View.OnClickListener{
+public class InfomationActivity extends BaseActivity implements View.OnClickListener{
     @BindView(R.id.tv_version)
     TextView tvVersion;
     @BindView(R.id.ln_update)
@@ -35,8 +35,6 @@ public class InfomationActivity extends FragmentActivity implements View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_infomation);
         ButterKnife.bind(this);
 
@@ -44,7 +42,7 @@ public class InfomationActivity extends FragmentActivity implements View.OnClick
 
         // join the ActionBar on the top of this layout
         actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
-        actionBarFragment.setActionBarType(CustomActionBarFragment.SIMPLE_TITLE_TYPE, "InformationActivity");
+        actionBarFragment.setActionBarType(CustomActionBarFragment.INFOMATION_TITLE_TYPE, getString(R.string.infomation_title));
         btnUpdate.setOnClickListener(this);
         btnRating.setOnClickListener(this);
         btnFanpage.setOnClickListener(this);

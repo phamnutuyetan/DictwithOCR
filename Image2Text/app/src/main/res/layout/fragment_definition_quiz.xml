@@ -6,14 +6,17 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
             android:scrollbars="vertical"
-            android:background="@color/activity_detail_bg"
+            android:background="@color/white_smoke"
             android:paddingBottom="1dp"
             android:paddingTop="1dp">
             <LinearLayout
@@ -37,7 +40,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/sub_title_text_size"
-                        android:textColor="@color/btn_bg_color_1"
+                        android:textColor="?colorAccent"
                         android:textStyle="bold"
                         android:textAllCaps="true" />
 
@@ -46,7 +49,7 @@
                         android:layout_height="1dp"
                         android:layout_marginTop="@dimen/medium_margin_vertical"
                         android:layout_marginBottom="@dimen/medium_margin_vertical"
-                        android:background="@color/colorPrimaryLineDark"/>
+                        android:background="@color/colorPrimaryLine"/>
 
                     <TextView
                         android:id="@+id/tv_english_meaning"
@@ -71,7 +74,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/sub_title_text_size"
-                        android:textColor="@color/btn_bg_color_1"
+                        android:textColor="?colorAccent"
                         android:textStyle="bold"
                         android:textAllCaps="true" />
 
@@ -80,7 +83,7 @@
                         android:layout_height="1dp"
                         android:layout_marginTop="@dimen/medium_margin_vertical"
                         android:layout_marginBottom="@dimen/medium_margin_vertical"
-                        android:background="@color/colorPrimaryLineDark"/>
+                        android:background="@color/colorPrimaryLine"/>
 
                     <TextView
                         android:id="@+id/tv_vietnamese_meaning"
@@ -106,7 +109,7 @@
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
                 android:hint="@string/quiz_submit_hint"
-                android:textColor="@color/submit_text_color"
+                android:textColor="@color/dim_grey"
                 android:textSize="@dimen/sub_title_text_size"
                 android:maxLines="1"
                 android:layout_gravity="center"/>
@@ -128,12 +131,6 @@
         android:layout_toLeftOf="@+id/rl_score"
         android:layout_marginRight="-20dp">
 
-        <View
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:background="@drawable/question_number_bg"
-            android:alpha="0.86"/>
-
         <TextView
             android:id="@+id/tv_question_number"
             android:layout_width="wrap_content"
@@ -141,7 +138,17 @@
             android:layout_centerInParent="true"
             android:textSize="@dimen/small_text_size"
             android:text=""
-            android:textColor="@color/score_color"/>
+            android:textColor="?android:textColorHighlight"/>
+
+        <View
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/question_number_bg"
+            android:alpha="0.86"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/view" />
     </RelativeLayout>
 
     <View
@@ -167,7 +174,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="@android:color/white"
+                android:textColor="?android:textColorSecondary"
                 android:text="@string/your_score_text"
                 android:layout_marginBottom="@dimen/small_margin_vertical"
                 android:textSize="@dimen/small_text_size"
@@ -179,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textStyle="bold"
-                android:textColor="@android:color/white"
+                android:textColor="?android:textColorSecondary"
                 android:textSize="@dimen/score_text_size"
                 android:text="0" />
         </LinearLayout>

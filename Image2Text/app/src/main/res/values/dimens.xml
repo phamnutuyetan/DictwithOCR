@@ -14,7 +14,8 @@
     <dimen name="main_btns_icon_size">28dp</dimen>
     <dimen name="main_btns_layout_horizontal_size">260dp</dimen>
     <dimen name="main_btns_layout_vertical_size">340dp</dimen>
-    <dimen name="synonymous_btn_icon_size">22dp</dimen>
+    <dimen name="speaker_btn_icon_size">22dp</dimen>
+    <dimen name="setting_option_btns_size">22dp</dimen>
     <dimen name="commnon_btns_size">26dp</dimen>
 
     <dimen name="quiz_submit_btn_size">28dp</dimen>

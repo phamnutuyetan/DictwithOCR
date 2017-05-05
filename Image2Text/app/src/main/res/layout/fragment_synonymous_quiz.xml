@@ -9,7 +9,7 @@
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
         android:layout_above="@+id/ln_submit"
-        android:background="@color/activity_detail_bg">
+        android:background="@color/white_smoke">
         <ImageView
             android:id="@+id/iv_speaker"
             android:layout_width="150dp"
@@ -36,7 +36,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:hint="@string/quiz_submit_hint"
-            android:textColor="@color/submit_text_color"
+            android:textColor="@color/dim_grey"
             android:textSize="@dimen/sub_title_text_size"
             android:maxLines="1"
             android:layout_gravity="center"/>
@@ -72,7 +72,7 @@
             android:layout_centerInParent="true"
             android:textSize="@dimen/small_text_size"
             android:text=""
-            android:textColor="@color/score_color"/>
+            android:textColor="@color/red"/>
     </RelativeLayout>
 
     <View

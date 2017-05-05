@@ -1,24 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#fafafa</color>
-    <color name="colorPrimary2">#E0E0E0</color>
-    <color name="colorPrimaryDark">#348F50</color>
-    <color name="colorPrimaryLine">#348F50</color>
-    <color name="colorPrimaryLineDark">#9E9E9E</color>
-    <color name="colorAccent">#56B4D3</color>
+    <color name="colorPrimary">@color/light_grey</color>
+    <color name="colorPrimaryLine">@color/grey</color>
+    <!--<color name="colorAccent">#56B4D3</color>-->
+    <color name="colorAccent">#64B5F6</color>
     <color name="common_text_color">#757575</color>
-    <color name="error_text_color">#e74c3c</color>
-    <color name="score_color">#f44336</color>
-    <color name="submit_text_color">#555555</color>
-    <color name="team_banner_color">#757575</color>
 
-    <color name="rounded_button_color">#4CAF50</color>
-    <color name="result_text_bg_color">#E0E0E0</color>
-    <color name="black">#000000</color>
+    <color name="wave_behide_color">@color/light_grey</color>
 
-    <color name="btn_bg_color_1">#64B5F6</color> <!--positive-->
-    <color name="btn_bg_color_2">#BDBDBD</color> <!--negative-->
-    <color name="wave_behide_color">#66BB6A</color>
 
-    <color name="activity_detail_bg">#e0e0e0</color>
+
+
+    <!-- Not change -->
+    <color name="light_grey">#fafafa</color>
+    <color name="dark_grey">#757575</color>
+
+    <!--Green Theme-->
+    <color name="white_smoke">#E0E0E0</color>
+    <color name="dark_green">#348F50</color>
+    <color name="grey">#9E9E9E</color>
+    <color name="color_accent_blue">#56B4D3</color>
+    <color name="red">#f44336</color>
+    <color name="dim_grey">#555555</color>
+    <color name="green">#4CAF50</color>
+    <color name="aqua">#64B5F6</color> <!--positive-->
+    <color name="smoke">#BDBDBD</color> <!--negative-->
+    <color name="light_green">#66BB6A</color>
+
+
+
 </resources>

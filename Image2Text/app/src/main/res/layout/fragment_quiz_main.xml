@@ -5,7 +5,7 @@
     android:paddingLeft="@dimen/medium_margin_horizontal"
     android:paddingRight="@dimen/medium_margin_horizontal"
     android:paddingTop="@dimen/large_margin_vertical"
-    android:background="@color/activity_detail_bg">
+    android:background="@color/white_smoke">
 
     <LinearLayout
         android:id="@+id/ln_definition_quiz"

@@ -31,7 +31,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 04/28/2017.
  */
 
-public class DetailActivity extends FragmentActivity implements View.OnClickListener,
+public class DetailActivity extends BaseActivity implements View.OnClickListener,
         LoaderManager.LoaderCallbacks<Cursor>, TextToSpeech.OnInitListener{
     private static final int WORD_LOADER = 0;
 
@@ -63,8 +63,6 @@ public class DetailActivity extends FragmentActivity implements View.OnClickList
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_detail);
         ButterKnife.bind(this);
 
@@ -75,7 +73,7 @@ public class DetailActivity extends FragmentActivity implements View.OnClickList
 
         // join the ActionBar on the top of this layout
         actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
-        actionBarFragment.setActionBarType(CustomActionBarFragment.DETAIL_TITLE_TYPE, "DetailActivity");
+        actionBarFragment.setActionBarType(CustomActionBarFragment.DETAIL_TITLE_TYPE, getString(R.string.detail_title));
         actionBarFragment.cbFavorite.setOnCheckedChangeListener(cbFavoriteCheckedChange);
         btnSpeaker.setOnClickListener(this);
     }

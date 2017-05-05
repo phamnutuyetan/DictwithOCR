@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-    <!--android:background="@color/colorPrimaryDark">-->
+    <!--android:background="?attr/colorPrimary">-->
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -79,6 +79,6 @@
             android:gravity="center_vertical"
             android:background="@drawable/custom_favorite_cb"
             android:button="@null"
-            android:visibility="gone"/>
+            />
     </RelativeLayout>
 </RelativeLayout>

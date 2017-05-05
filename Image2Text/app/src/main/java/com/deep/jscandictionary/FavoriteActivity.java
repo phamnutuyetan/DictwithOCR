@@ -27,7 +27,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 04/18/2017.
  */
 
-public class FavoriteActivity extends FragmentActivity implements LoaderManager.LoaderCallbacks<Cursor>{
+public class FavoriteActivity extends BaseActivity implements LoaderManager.LoaderCallbacks<Cursor>{
     public static final String WORD_URI = "word_uri";
     public static final int LOADER = 0;
 
@@ -45,8 +45,6 @@ public class FavoriteActivity extends FragmentActivity implements LoaderManager.
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_favorite);
         ButterKnife.bind(this);
 

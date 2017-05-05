@@ -13,7 +13,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/activity_detail_bg">
+        android:background="@color/white_smoke">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -39,15 +39,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/sub_title_text_size"
-                        android:textColor="@color/btn_bg_color_1"
+                        android:textColor="?colorAccent"
                         android:textStyle="bold"
                         android:layout_gravity="center_vertical"
                         android:textAllCaps="true"/>
 
                     <ImageButton
                         android:id="@+id/ibtn_speaker"
-                        android:layout_width="@dimen/synonymous_btn_icon_size"
-                        android:layout_height="@dimen/synonymous_btn_icon_size"
+                        android:layout_width="@dimen/speaker_btn_icon_size"
+                        android:layout_height="@dimen/speaker_btn_icon_size"
                         android:layout_gravity="center_vertical"
                         android:layout_marginLeft="@dimen/medium_margin_horizontal"
                         android:src="@drawable/ic_volume"
@@ -72,7 +72,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/sub_title_text_size"
-                    android:textColor="@color/btn_bg_color_1"
+                    android:textColor="?colorAccent"
                     android:textStyle="bold"
                     android:layout_gravity="center_vertical"
                     android:textAllCaps="true"/>
@@ -82,7 +82,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/medium_margin_vertical"
                     android:layout_marginBottom="@dimen/medium_margin_vertical"
-                    android:background="@color/colorPrimaryLineDark"/>
+                    android:background="@color/colorPrimaryLine"/>
 
                 <TextView
                     android:id="@+id/tv_synonymous"
@@ -108,7 +108,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/sub_title_text_size"
-                    android:textColor="@color/btn_bg_color_1"
+                    android:textColor="?colorAccent"
                     android:textStyle="bold"
                     android:textAllCaps="true" />
 
@@ -117,7 +117,7 @@
                 android:layout_height="1dp"
                 android:layout_marginTop="@dimen/medium_margin_vertical"
                 android:layout_marginBottom="@dimen/medium_margin_vertical"
-                android:background="@color/colorPrimaryLineDark"/>
+                android:background="@color/colorPrimaryLine"/>
 
             <TextView
                 android:id="@+id/tv_english_meaning"
@@ -141,7 +141,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/sub_title_text_size"
-                    android:textColor="@color/btn_bg_color_1"
+                    android:textColor="?colorAccent"
                     android:textStyle="bold"
                     android:textAllCaps="true" />
 
@@ -150,7 +150,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/medium_margin_vertical"
                     android:layout_marginBottom="@dimen/medium_margin_vertical"
-                    android:background="@color/colorPrimaryLineDark"/>
+                    android:background="@color/colorPrimaryLine"/>
 
                 <TextView
                     android:id="@+id/tv_vietnamese_meaning"
@@ -175,7 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="@dimen/sub_title_text_size"
-                    android:textColor="@color/btn_bg_color_1"
+                    android:textColor="?colorAccent"
                     android:textStyle="bold"
                     android:textAllCaps="true" />
 
@@ -184,7 +184,7 @@
                     android:layout_height="1dp"
                     android:layout_marginTop="@dimen/medium_margin_vertical"
                     android:layout_marginBottom="@dimen/medium_margin_vertical"
-                    android:background="@color/colorPrimaryLineDark"/>
+                    android:background="@color/colorPrimaryLine"/>
 
                 <TextView
                     android:id="@+id/tv_example"

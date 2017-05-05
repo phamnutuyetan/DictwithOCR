@@ -21,7 +21,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 04/27/2017.
  */
 
-public class MultiTranslateActivity extends FragmentActivity implements View.OnClickListener{
+public class MultiTranslateActivity extends BaseActivity implements View.OnClickListener{
     @BindView(R.id.btn_clear_all)
     Button btnClearAll;
     @BindView(R.id.btn_translate)
@@ -37,8 +37,6 @@ public class MultiTranslateActivity extends FragmentActivity implements View.OnC
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_multi_translate);
         ButterKnife.bind(this);
 

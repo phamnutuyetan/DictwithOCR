@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:text="@string/favorite_words_is_empty"
         android:padding="@dimen/medium_margin_horizontal"
-        android:background="@color/activity_detail_bg"
+        android:background="@color/white_smoke"
         style="@style/common_tv_style"
         android:visibility="gone"/>
 
@@ -34,5 +34,5 @@
         android:id="@+id/rcv_favorite_list"
         android:scrollbars="vertical"
         android:padding="@dimen/medium_margin_horizontal"
-        android:background="@color/activity_detail_bg"/>
+        android:background="@color/white_smoke"/>
 </LinearLayout>

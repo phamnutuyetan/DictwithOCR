@@ -71,7 +71,7 @@
         android:paddingRight="@dimen/large_margin_horizontal"
         android:paddingTop="@dimen/medium_margin_vertical"
         android:paddingBottom="@dimen/medium_margin_vertical"
-        android:background="@color/colorPrimary2">
+        android:background="@color/white_smoke">
 
         <LinearLayout
             android:id="@+id/ln_update"
@@ -104,7 +104,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorPrimaryLineDark"/>
+            android:background="@color/colorPrimaryLine"/>
 
         <LinearLayout
             android:id="@+id/ln_rating"
@@ -136,7 +136,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorPrimaryLineDark"/>
+            android:background="@color/colorPrimaryLine"/>
 
         <LinearLayout
             android:id="@+id/ln_fanpage"
@@ -169,7 +169,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/colorPrimary2">
+        android:background="@color/white_smoke">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -11,6 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.deep.jscandictionary.Utils.Utils;
 import com.deep.jscandictionary.image2text.R;
 
 import butterknife.BindView;
@@ -48,10 +49,10 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
         //custom searchview (cause I can change it in xml)
         //TextColor
         ((EditText)searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
-                .setTextColor(getResources().getColor(R.color.colorPrimary));
+                .setTextColor(Utils.getThemeColor(getActivity(), android.R.attr.textColorSecondary));
         //HintTextColor
         ((EditText)searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
-                .setHintTextColor(getResources().getColor(R.color.colorPrimary2));
+                .setHintTextColor(Utils.getThemeColor(getActivity(), android.R.attr.textColorHint));
 
         btnBack.setOnClickListener(this);
         btnHome.setOnClickListener(this);

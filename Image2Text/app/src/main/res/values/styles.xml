@@ -2,15 +2,31 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimaryDark</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <style name="AppTheme.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/color_accent_blue</item>
+        <item name="android:colorBackground">@color/light_grey</item>
+        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:textColorPrimary">@color/common_text_color</item>
+        <item name="android:textColorSecondary">@color/light_grey</item>
+        <item name="android:textColorHighlight">@color/red</item>
+        <item name="android:textColorHint">@color/white_smoke</item>
+        <item name="colorButtonNormal">@color/aqua</item>
+        <item name="imageButtonStyle">@style/common_btns_style</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="AppTheme">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/color_accent_blue</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="AppTheme">
+        <item name="colorPrimary">#82B1FF</item>
+        <item name="colorPrimaryDark">#5B86E5</item>
+        <item name="colorAccent">#36D1DC</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
@@ -35,20 +51,19 @@
 
     <style name="common_tv_style">
         <item name="android:textSize">@dimen/common_text_size</item>
-        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:textColor">@color/dark_grey</item>
         <item name="android:lineSpacingMultiplier">1.5</item>
         <!--<item name="android:fontFamily">sans-serif-light</item>-->
     </style>
 
     <style name="menu_tv_style">
         <item name="android:textSize">@dimen/menu_title_text_size</item>
-        <item name="android:textColor">@color/common_text_color</item>
+        <item name="android:textColor">@color/dark_grey</item>
         <item name="android:lineSpacingMultiplier">1.5</item>
-        <!--<item name="android:fontFamily">sans-serif-light</item>-->
     </style>
 
     <style name="common_error_tv_style" parent="common_tv_style">
-        <item name="android:textColor">@color/error_text_color</item>
+        <item name="android:textColor">@color/red</item>
     </style>
 
     <style name="search_bar_style" parent="Widget.AppCompat.SearchView">

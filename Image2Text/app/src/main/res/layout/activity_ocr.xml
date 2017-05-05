@@ -33,7 +33,7 @@
             android:layout_weight="1"
             android:textColor="@color/colorPrimary"
             android:text="OCR"
-            android:background="@color/btn_bg_color_1"/>
+            android:background="@drawable/positive_btn_bg"/>
         <Button
             android:id="@+id/btn_translate"
             android:layout_width="0dp"
@@ -43,7 +43,7 @@
             android:textColor="@color/colorPrimary"
             android:text="Translate"
             android:layout_marginLeft="10dp"
-            android:background="@color/btn_bg_color_1"/>
+            android:background="@drawable/positive_btn_bg"/>
 
     </LinearLayout>
 
@@ -56,7 +56,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/small_margin_vertical"
             android:layout_marginLeft="@dimen/large_margin_horizontal"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="?colorPrimary"
             android:textAllCaps="true"
             android:text="Result"/>
 

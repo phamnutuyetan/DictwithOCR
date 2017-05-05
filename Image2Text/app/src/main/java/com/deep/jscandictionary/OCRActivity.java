@@ -32,7 +32,7 @@ import com.theartofdev.edmodo.cropper.CropImageView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class OCRActivity extends FragmentActivity implements View.OnClickListener{
+public class OCRActivity extends BaseActivity implements View.OnClickListener{
     public static final String DATA_PATH = Environment.getExternalStorageDirectory().toString() + "/OCRScan/";
     public static final String lang = "jpn";
     public static final String OCR_WORD_RESULT = "ocr_word_result";
@@ -52,8 +52,6 @@ public class OCRActivity extends FragmentActivity implements View.OnClickListene
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_ocr);
         ButterKnife.bind(this);
 

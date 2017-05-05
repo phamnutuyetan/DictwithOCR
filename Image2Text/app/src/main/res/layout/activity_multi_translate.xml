@@ -31,7 +31,8 @@
                 android:layout_weight="1"
                 android:textColor="@color/colorPrimary"
                 android:text="Clear All"
-                android:background="@color/btn_bg_color_2"/>
+                android:alpha="0.7"
+                android:background="@drawable/negative_btn_bg"/>
 
             <View
                 android:layout_width="@dimen/medium_margin_horizontal"
@@ -44,7 +45,7 @@
                 android:layout_weight="1"
                 android:textColor="@color/colorPrimary"
                 android:text="Translate"
-                android:background="@color/btn_bg_color_1"/>
+                android:background="@drawable/positive_btn_bg"/>
 
         </LinearLayout>
 
@@ -62,7 +63,7 @@
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
-            android:background="@color/colorPrimaryLineDark"
+            android:background="@color/colorPrimaryLine"
             android:layout_marginTop="@dimen/large_margin_vertical"
             android:layout_marginBottom="@dimen/large_margin_vertical"
             android:layout_marginLeft="@dimen/large_margin_horizontal"
@@ -73,7 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/small_margin_vertical"
             android:layout_marginLeft="@dimen/large_margin_horizontal"
-            android:textColor="@color/colorPrimaryDark"
+            android:textColor="?colorPrimary"
             android:textAllCaps="true"
             android:text="Result"/>
 
