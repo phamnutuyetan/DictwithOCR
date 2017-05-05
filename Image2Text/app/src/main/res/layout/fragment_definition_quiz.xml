@@ -131,15 +131,6 @@
         android:layout_toLeftOf="@+id/rl_score"
         android:layout_marginRight="-20dp">
 
-        <TextView
-            android:id="@+id/tv_question_number"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textSize="@dimen/small_text_size"
-            android:text=""
-            android:textColor="?android:textColorHighlight"/>
-
         <View
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -149,6 +140,15 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:id="@+id/view" />
+
+        <TextView
+            android:id="@+id/tv_question_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="@dimen/small_text_size"
+            android:text=""
+            android:textColor="?android:textColorHighlight"/>
     </RelativeLayout>
 
     <View
@@ -174,7 +174,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="?android:textColorSecondary"
+                android:textColor="@color/light_grey"
                 android:text="@string/your_score_text"
                 android:layout_marginBottom="@dimen/small_margin_vertical"
                 android:textSize="@dimen/small_text_size"
@@ -186,7 +186,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textStyle="bold"
-                android:textColor="?android:textColorSecondary"
+                android:textColor="@color/light_grey"
                 android:textSize="@dimen/score_text_size"
                 android:text="0" />
         </LinearLayout>

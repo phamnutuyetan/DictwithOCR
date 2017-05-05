@@ -8,7 +8,6 @@
         <item name="android:colorBackground">@color/light_grey</item>
         <item name="android:textColor">@color/common_text_color</item>
         <item name="android:textColorPrimary">@color/common_text_color</item>
-        <item name="android:textColorSecondary">@color/light_grey</item>
         <item name="android:textColorHighlight">@color/red</item>
         <item name="android:textColorHint">@color/white_smoke</item>
         <item name="colorButtonNormal">@color/aqua</item>
