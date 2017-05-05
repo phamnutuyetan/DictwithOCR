@@ -37,7 +37,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.deep.jscandictionary.MultiTranslateActivity"
+        <activity android:name="com.deep.jscandictionary.TranslateActivity"
             android:screenOrientation="portrait"
             android:label="@string/multi_translate_title">
         </activity>

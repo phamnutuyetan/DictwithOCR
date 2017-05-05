@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.deep.jscandictionary.Utils.Utils;
+import com.deep.jscandictionary.Utils.ThemeUtils;
 import com.deep.jscandictionary.image2text.R;
 
 import butterknife.BindView;
@@ -23,7 +23,7 @@ import butterknife.ButterKnife;
 
 public class CustomActionBarFragment extends Fragment implements View.OnClickListener{
     public static final int SEARCH_RESULT_TITLE_TYPE = 0;          // for: SearchResultActivity
-    public static final int SIMPLE_TITLE_TYPE = 1;                 // for: OCRActivity, MultiTranslateActivity,...
+    public static final int SIMPLE_TITLE_TYPE = 1;                 // for: OCRActivity, TranslateActivity,...
     public static final int FAVORITE_TITLE_TYPE = 2;        // for: FavoriteActivity,...
     public static final int DETAIL_TITLE_TYPE = 3;          // for: DetailActivity
     public static final int INFOMATION_TITLE_TYPE = 4;      // for: InformationActivity
@@ -49,10 +49,10 @@ public class CustomActionBarFragment extends Fragment implements View.OnClickLis
         //custom searchview (cause I can change it in xml)
         //TextColor
         ((EditText)searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
-                .setTextColor(Utils.getThemeColor(getActivity(), android.R.attr.textColorSecondary));
+                .setTextColor(ThemeUtils.getThemeColor(getActivity(), android.R.attr.textColorSecondary));
         //HintTextColor
         ((EditText)searchView.findViewById(android.support.v7.appcompat.R.id.search_src_text))
-                .setHintTextColor(Utils.getThemeColor(getActivity(), android.R.attr.textColorHint));
+                .setHintTextColor(ThemeUtils.getThemeColor(getActivity(), android.R.attr.textColorHint));
 
         btnBack.setOnClickListener(this);
         btnHome.setOnClickListener(this);

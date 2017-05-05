@@ -4,7 +4,7 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <item name="colorPrimary">@color/green</item>
         <item name="colorPrimaryDark">@color/dark_green</item>
-        <item name="colorAccent">@color/color_accent_blue</item>
+        <item name="colorAccent">@color/aqua</item>
         <item name="android:colorBackground">@color/light_grey</item>
         <item name="android:textColor">@color/common_text_color</item>
         <item name="android:textColorPrimary">@color/common_text_color</item>
@@ -12,24 +12,25 @@
         <item name="android:textColorHint">@color/white_smoke</item>
         <item name="colorButtonNormal">@color/aqua</item>
         <item name="imageButtonStyle">@style/common_btns_style</item>
-        <item name="windowActionBar">false</item>
-        <item name="windowNoTitle">true</item>
     </style>
 
     <style name="AppTheme.Green" parent="AppTheme">
-        <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryDark">@color/dark_green</item>
-        <item name="colorAccent">@color/color_accent_blue</item>
+        <item name="colorPrimary">@color/colorPrimary_ThemeGreen</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_ThemeGreen</item>
+        <item name="colorAccent">@color/colorAccent_ThemeGreen</item>
     </style>
 
     <style name="AppTheme.Blue" parent="AppTheme">
-        <item name="colorPrimary">#82B1FF</item>
-        <item name="colorPrimaryDark">#5B86E5</item>
-        <item name="colorAccent">#36D1DC</item>
+        <item name="colorPrimary">@color/colorPrimary_ThemeBlue</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark_ThemeBlue</item>
+        <item name="colorAccent">@color/colorAccent_ThemeBlue</item>
     </style>
 
-    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.Red" parent="AppTheme">
+        <item name="colorPrimary">#ff5858</item>
+        <item name="colorPrimaryDark">#ff5252</item>
+        <item name="colorAccent">#f857a6</item>
+    </style>
 
     <style name="main_button_style" parent="@android:style/Widget.ImageButton">
         <item name="android:layout_margin">@dimen/main_btn_margin</item>

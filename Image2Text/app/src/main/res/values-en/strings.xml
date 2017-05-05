@@ -22,7 +22,7 @@
     <!-- CustomActionBar -->
     <string name="search_hint">"Enter your text here..."</string>
 
-    <!-- MultiTranslateActivity -->
+    <!-- TranslateActivity -->
     <string name="multi_translate_title">Translate</string>
 
     <!-- FavoriteActivity -->

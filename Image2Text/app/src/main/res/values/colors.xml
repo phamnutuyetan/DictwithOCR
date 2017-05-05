@@ -14,8 +14,6 @@
     <!-- Not change -->
     <color name="light_grey">#fafafa</color>
     <color name="dark_grey">#757575</color>
-
-    <!--Green Theme-->
     <color name="white_smoke">#E0E0E0</color>
     <color name="dark_green">#348F50</color>
     <color name="grey">#9E9E9E</color>
@@ -23,10 +21,24 @@
     <color name="red">#f44336</color>
     <color name="dim_grey">#555555</color>
     <color name="green">#4CAF50</color>
-    <color name="aqua">#64B5F6</color> <!--positive-->
+    <color name="aqua">#2196F3</color> <!--positive-->
     <color name="smoke">#BDBDBD</color> <!--negative-->
     <color name="light_green">#66BB6A</color>
 
 
+    <!--Green Theme-->
+    <color name="colorPrimary_ThemeGreen">@color/green</color>
+    <color name="colorPrimaryDark_ThemeGreen">@color/dark_green</color>
+    <color name="colorAccent_ThemeGreen">@color/aqua</color>
+
+    <!--Blue Theme-->
+    <color name="colorPrimary_ThemeBlue">#82B1FF</color>
+    <color name="colorPrimaryDark_ThemeBlue">#5B86E5</color>
+    <color name="colorAccent_ThemeBlue">#514A9D</color>
+
+    <!--Red Theme-->
+    <color name="colorPrimary_ThemeRed">#ff5858</color>
+    <color name="colorPrimaryDark_ThemeRed">#ff5252</color>
+    <color name="colorAccent_ThemeRed">#F06292</color>
 
 </resources>

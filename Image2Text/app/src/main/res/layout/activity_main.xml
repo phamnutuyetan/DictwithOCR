@@ -93,9 +93,11 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_ocr"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
                             android:layout_gravity="center"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_ocr"
                             style="@style/main_button_style"/>
 
@@ -116,8 +118,10 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_multi_line_translate"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_multi_translate"
                             style="@style/main_button_style"/>
                         <TextView
@@ -151,8 +155,10 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_quiz"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_game"
                             style="@style/main_button_style"/>
                         <TextView
@@ -172,8 +178,10 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_favorite"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_favorite"
                             style="@style/main_button_style"/>
                         <TextView
@@ -206,8 +214,10 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_setting"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_setting"
                             style="@style/main_button_style"/>
                         <TextView
@@ -227,8 +237,10 @@
                         android:orientation="vertical"
                         android:gravity="center">
                         <ImageButton
+                            android:id="@+id/ibtn_info"
                             android:layout_width="@dimen/main_btns_icon_size"
                             android:layout_height="@dimen/main_btns_icon_size"
+                            android:tint="?colorAccent"
                             android:src="@drawable/ic_info"
                             style="@style/main_button_style"/>
                         <TextView

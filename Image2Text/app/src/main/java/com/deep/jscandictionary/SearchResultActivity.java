@@ -27,7 +27,7 @@ import butterknife.ButterKnife;
  * Created by Phuong Nguyen Lan on 05/02/2017.
  */
 
-public class SearchResultActivity extends FragmentActivity implements  LoaderManager.LoaderCallbacks<Cursor>{
+public class SearchResultActivity extends BaseActivity implements  LoaderManager.LoaderCallbacks<Cursor>{
     public interface DictHomeListener {
         // called when contact selected
         void onWordSelected(Uri contactUri);

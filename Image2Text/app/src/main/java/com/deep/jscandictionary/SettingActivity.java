@@ -1,19 +1,15 @@
 package com.deep.jscandictionary;
 
 import android.content.Intent;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
-import android.support.v4.app.FragmentActivity;
-import android.util.DisplayMetrics;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.deep.jscandictionary.Utils.Utils;
+import com.deep.jscandictionary.Utils.LanguageUtils;
+import com.deep.jscandictionary.Utils.ThemeUtils;
 import com.deep.jscandictionary.image2text.R;
 
 import java.util.Locale;
@@ -55,9 +51,6 @@ public class SettingActivity extends BaseActivity implements View.OnClickListene
 
     private boolean isOpenThemeOption = false;
     private boolean isOpenLanguageOption = false;
-    private Locale locale;
-    private String curLanguage = "en";
-
     private CustomActionBarFragment actionBarFragment;
 
     @Override
@@ -66,15 +59,7 @@ public class SettingActivity extends BaseActivity implements View.OnClickListene
         setContentView(R.layout.activity_setting);
         ButterKnife.bind(this);
 
-        curLanguage = getIntent().getStringExtra(LANGUAGE);
-        if (curLanguage == null)
-            curLanguage = "en";
-
-        if (curLanguage.equals("vn"))
-            vCurrentLanguage.setImageResource(R.drawable.ic_flag_vn);
-        else
-            vCurrentLanguage.setImageResource(R.drawable.ic_flag_us);
-
+        vCurrentLanguage.setImageResource(LanguageUtils.flagIconResource);
 
         // join the ActionBar on the top of this layout
         actionBarFragment = (CustomActionBarFragment) getSupportFragmentManager().findFragmentById(R.id.fr_action_bar);
@@ -137,30 +122,24 @@ public class SettingActivity extends BaseActivity implements View.OnClickListene
                 break;
 
             case R.id.v_theme_green:
-                Utils.changeToTheme(this, Utils.THEME_GREEN);
-                showToast("You picked green");
+                ThemeUtils.changeToTheme(this, ThemeUtils.THEME_GREEN);
                 break;
 
             case R.id.v_theme_blue:
-                Utils.changeToTheme(this, Utils.THEME_BLUE);
-                showToast("You picked blue");
+                ThemeUtils.changeToTheme(this, ThemeUtils.THEME_BLUE);
                 break;
 
             case R.id.v_theme_red:
+                ThemeUtils.changeToTheme(this, ThemeUtils.THEME_RED);
                 break;
 
             case R.id.ibtn_language_us:
-                if (!curLanguage.equals("en")) {
-                    curLanguage = "en";
-                    setLocale("en");
-                }
+                LanguageUtils.setLanguage(this, LanguageUtils.ENGLISH_US);
                 break;
 
             case R.id.ibtn_language_vn:
-                if (!curLanguage.equals("vn")) {
-                    curLanguage = "vn";
-                    setLocale("vn");
-                }
+                LanguageUtils.setLanguage(this, LanguageUtils.VIETNAMESE);
+
                 break;
 
             case R.id.ibtn_back:
@@ -173,17 +152,5 @@ public class SettingActivity extends BaseActivity implements View.OnClickListene
 
     private void showToast(String message){
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
-    }
-
-    private void setLocale(String lang){
-        locale = new Locale(lang);
-        Resources res = getResources();
-        DisplayMetrics dm = res.getDisplayMetrics();
-        Configuration conf = res.getConfiguration();
-        conf.locale = locale;
-        res.updateConfiguration(conf, dm);
-        Intent refresh = new Intent(this, SettingActivity.class);
-        refresh.putExtra(LANGUAGE, curLanguage);
-        startActivity(refresh);
     }
 }

@@ -22,7 +22,7 @@
     <!-- CustomActionBar -->
     <string name="search_hint">"Bạn muốn tra từ gì?"</string>
 
-    <!-- MultiTranslateActivity -->
+    <!-- TranslateActivity -->
     <string name="multi_translate_title">Dịch nghĩa</string>
 
     <!-- FavoriteActivity -->

@@ -3,24 +3,20 @@ package com.deep.jscandictionary.Quiz;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.database.Cursor;
-import android.net.LinkAddress;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.CursorLoader;
 import android.support.v4.content.Loader;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -73,7 +69,7 @@ public class ReadingQuizFragment extends Fragment implements LoaderManager.Loade
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup viewGroup, Bundle bundle){
         super.onCreateView(inflater, viewGroup, bundle);
-        View view = inflater.inflate(R.layout.fragment_definition_quiz, viewGroup, false);
+        View view = inflater.inflate(R.layout.fragment_reading_quiz, viewGroup, false);
         ButterKnife.bind(this, view);
 
         handler = new Handler();

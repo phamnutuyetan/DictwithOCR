@@ -1,29 +1,27 @@
 package com.deep.jscandictionary;
 
 import android.content.Intent;
-import android.graphics.Color;
-import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.SearchView;
-import android.util.TypedValue;
 import android.view.View;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
 import com.deep.jscandictionary.Helper.WaveHelper;
 import com.deep.jscandictionary.Quiz.QuizActivity;
-import com.deep.jscandictionary.Utils.Utils;
+import com.deep.jscandictionary.Utils.ThemeUtils;
 import com.deep.jscandictionary.image2text.R;
 import com.gelitenight.waveview.library.WaveView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener{
     public static final String WORD_URI = "word_uri";
     public static final String WORD_QUERY = "word_query";
 
@@ -49,14 +47,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @BindView(R.id.btn_setting)
     LinearLayout btnSetting;
 
+//  bind below views to change color
+    @BindView(R.id.ibtn_ocr)
+    ImageButton ibtnOcr;
+    @BindView(R.id.ibtn_multi_line_translate)
+    ImageButton ibtnMultiTranslate;
+    @BindView(R.id.ibtn_quiz)
+    ImageButton ibtnQuiz;
+    @BindView(R.id.ibtn_favorite)
+    ImageButton ibtnFavorite;
+    @BindView(R.id.ibtn_setting)
+    ImageButton ibtnSetting;
+    @BindView(R.id.ibtn_info)
+    ImageButton ibtnInfo;
+
     private WaveHelper mWaveHelper;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Utils.onActivityCreatedSetTheme(this);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
@@ -105,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.btn_multi_line_translate:
-                intent = new Intent(this, MultiTranslateActivity.class);
+                intent = new Intent(this, TranslateActivity.class);
                 startActivity(intent);
                 break;
 
@@ -128,8 +137,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     private void initWaveUI(){
         //get Color
-        int waveBehindColor = Utils.getThemeColor(this, R.attr.colorPrimary);
-        int waveFrontColor = Utils.getThemeColor(this, android.R.attr.colorBackground);
+        int waveBehindColor = ThemeUtils.getThemeColor(this, R.attr.colorPrimary);
+        int waveFrontColor = ThemeUtils.getThemeColor(this, android.R.attr.colorBackground);
 
         mWaveHelper = new WaveHelper(mWaveView);
         mWaveView.setShapeType(WaveView.ShapeType.SQUARE);

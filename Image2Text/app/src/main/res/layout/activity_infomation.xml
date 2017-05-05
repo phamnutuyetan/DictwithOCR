@@ -86,6 +86,7 @@
                 android:layout_marginTop="@dimen/medium_margin_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin_horizontal"
                 android:layout_marginLeft="@dimen/medium_margin_horizontal"
+                android:tint="?colorAccent"
                 android:src="@drawable/ic_update"
                 android:clickable="false"
                 style="@style/common_btns_style"/>
@@ -119,6 +120,7 @@
                 android:layout_marginTop="@dimen/medium_margin_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin_horizontal"
                 android:layout_marginLeft="@dimen/medium_margin_horizontal"
+                android:tint="?colorAccent"
                 android:src="@drawable/ic_rating"
                 android:clickable="false"
                 style="@style/common_btns_style"/>
@@ -150,6 +152,7 @@
                 android:layout_marginTop="@dimen/medium_margin_horizontal"
                 android:layout_marginBottom="@dimen/medium_margin_horizontal"
                 android:layout_marginLeft="@dimen/medium_margin_horizontal"
+                android:tint="?colorAccent"
                 android:src="@drawable/ic_facebook"
                 android:clickable="false"
                 style="@style/common_btns_style"/>

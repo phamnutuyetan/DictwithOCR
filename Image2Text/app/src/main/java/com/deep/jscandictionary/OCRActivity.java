@@ -15,12 +15,10 @@ import android.media.ExifInterface;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
-import android.support.v4.app.FragmentActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -133,7 +131,7 @@ public class OCRActivity extends BaseActivity implements View.OnClickListener{
     public void onClick(View view){
         switch (view.getId()){
             case R.id.btn_translate:
-                Intent intent = new Intent(this, MultiTranslateActivity.class);
+                Intent intent = new Intent(this, TranslateActivity.class);
                 intent.putExtra(OCR_WORD_RESULT, edtResult.getText().toString());
                 startActivity(intent);
             break;
